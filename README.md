@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# react-itune-search
+### About
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is demo application, using iTunes free search API. Technologies used ReactJS, HTML5, redux, CSS3
 
-## Available Scripts
+## Demo 
 
-In the project directory, you can run:
+You can check out live demo here https://nikita-karajgikar.github.io/itune-api-search/
 
-### `npm start`
+## Prerequisite 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You should have latest node installed in your computer.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+``` javascript 
+ git clone https://github.com/nikita-karajgikar/itune-api-search.git
+````
 
-### `npm test`
+For this demo I am using Itune's free API to get music collection and songs etc.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The iTunes Search API can be found at:
+https://affiliate.itunes.apple.com/resources/documentation/itunes-store-webservice-search-api/
 
-### `npm run build`
+Once you copy/clone repo locally you are good to go. just do ```npm install``` inside cloned project, it will take a while depend on your network speed.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+open terminal inside project folder and cd to ```./``` folder then run ```npm start``` your server will be up and running, & it will open appliation. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Publishing Pages
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I have used react gh-pages to publish my pages in github
+The reference link for gh-pages is : https://github.com/gitname/react-gh-pages
+Once you install react-gh-pages you can run "npm run deploy" command to deploy the same
 
-### `npm run eject`
+### Base configuration for styles
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+if you want to do scss/css changes, you need to run npm ```npm run build-css``` or ```npm run watch-css``` to watch your style chagnes 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Compatibility
+ 
+ Currently, component supports Google Chrome (tested v37+), Mozilla Firefox (tested 30+), and Internet Explorer. Latest Mobile browsers are tested.
